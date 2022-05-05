@@ -39,7 +39,7 @@ void main() async {
   print(user);
 
   runApp(GetMaterialApp(
-      initialRoute: '/home',
+      initialRoute: '/appscaffold',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorSchemeSeed: mainHeader),
       getPages: AppPages.routes));
